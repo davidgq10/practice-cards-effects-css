@@ -1,5 +1,6 @@
-# practice-cars-effects-css
+# practice-cards-effects-css
 
-Practicing cards effects, counter and ::before properties2
+Practicing cards effects, counter and ::before properties
 
-<a href="demo.mp4">
+Demo:
+    <a href="Demo.mp4"></a>
