@@ -1,51 +1,61 @@
-.main {
-  width: 80vw;
-  transform: translateX(50px);
-  margin-left: 150px;
-  font-size: 2rem;
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
+body{
   counter-reset: myCounter 0;
   height: 100vh;
-  background-color: black;
+  background-color: rgb(17, 17, 17);
+  box-sizing: border-box;
 }
+
+.main {
+  width: 80vw;
+  margin: auto;
+  padding-left: 50px;
+  font-size: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .card {
-  background-color: red;
   background-image: linear-gradient(to right, red, yellow);
-  border-radius: 20px;
+  border-radius: 15px;
   margin-left: -50px;
   margin-bottom: 20px;
-  width: 300px;
+  width: 250px;
   height: 300px;
   display: inline-block;
-  border: 2px solid darkslategray;
+  border: 2px solid rgb(3, 32, 68);
   box-sizing: border-box;
   transition: ease-in-out 0.25s;
   font-size: 2rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-decoration: 50px lightseagreen;
-  text-orientation: sideways;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: darkslategray;
-  text-align: center;
   background-position-x: center;
   background-position-y: center;
-  box-shadow: 2px 4px 15px black;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-shadow: .5px 5px 15px rgb(61, 61, 61);
+  align-content: center;
+  
 }
 
 .card:hover {
   background-color: white;
   background-image: url("ab.jpg");
+  background-size: cover;
   position: relative;
   transform: translateX(40px) translateY(-20px) rotate(1deg) scale(1.2);
-  box-shadow: 2px 4px 30px white;
+  box-shadow: 2px 4px 30px rgb(237, 255, 133);
   background-repeat: no-repeat;
   margin-left: 0px;
   color: rgba(0, 0, 0, 0);
   z-index: 20;
+}
+
+h5 {
+
+  width: 250px;
+  height: 100%;
+  margin-top: 50%;
+  padding-left: 25px;
+  text-align: center;
+  transform: translateX(-20px) translateY(-20px);
 }
 
 h5::after {
